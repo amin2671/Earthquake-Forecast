@@ -1,0 +1,3566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.accessiblecaption
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.ADAY</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX1"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">01JAN2000</td>
+<td class="r data">31MAR2023</td>
+<td class="r data">8491</td>
+<td class="r data">0</td>
+<td class="r data">14.00000</td>
+<td class="r data">1296.00000</td>
+<td class="r data">74.07938</td>
+<td class="r data">41.46851</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX2"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">01JAN2000</td>
+<td class="r data">31MAR2023</td>
+<td class="r data">8491</td>
+<td class="r data">0</td>
+<td class="r data">14.00000</td>
+<td class="r data">1296.00000</td>
+<td class="r data">74.07938</td>
+<td class="r data">41.46851</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX3"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">2568.35346</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">963.13255</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">963.13255</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">682.66667</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">1605.22091</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX4"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-40813</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data">0</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">8491</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">6</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">8489</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">81637</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">81680</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">81637</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">81652</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">81686</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX5"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 24 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX6"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">246.12870</td>
+<td class="r data">30.02558</td>
+<td class="r data">8.20</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">16.86466</td>
+<td class="r data">2.58291</td>
+<td class="r data">6.53</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data" nowrap>1.068444E-9</td>
+<td class="r data" nowrap>5.62629E-8</td>
+<td class="r data">0.02</td>
+<td class="r data">0.9848</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.58418</td>
+<td class="r data">0.02932</td>
+<td class="r data">19.92</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">731.81678</td>
+<td class="r data">6076.2</td>
+<td class="r data">0.12</td>
+<td class="r data">0.9041</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">501.19699</td>
+<td class="r data">22.80525</td>
+<td class="r data">21.98</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX7"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">876.96535</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">29.61360</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">18.37255</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">91.07857</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.49005</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.48975</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.23197</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.48933</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 8489</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX8"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<td class="r data">1</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9538</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">20.38</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9539</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">0.13</td>
+<td class="r data">0.9390</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX9"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">64.5047253</td>
+<td class="r data">14.287242</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">0.002582224</td>
+<td class="r data">0.0446667</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX10"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">731.81678</td>
+<td class="r data">0.00859</td>
+<td class="r data">0.58418</td>
+<td class="r data">6.27691</td>
+<td class="r data">9.73093</td>
+<td class="r data">760.84457</td>
+<td class="r data">501.19699</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX11"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">7127</th>
+<th class="r rowheader" scope="row">06JUL2019</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">1098.16525</td>
+<td class="r data">26.512333</td>
+<td class="r data">1715.69</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3748</th>
+<th class="r rowheader" scope="row">05APR2010</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">493.20460</td>
+<td class="r data">26.512333</td>
+<td class="r data">346.07</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">1039</th>
+<th class="r rowheader" scope="row">04NOV2002</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">401.19807</td>
+<td class="r data">26.512333</td>
+<td class="r data">228.99</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7126</th>
+<th class="r rowheader" scope="row">05JUL2019</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data" nowrap>-371.73367</td>
+<td class="r data">26.512333</td>
+<td class="r data">196.59</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4088</th>
+<th class="r rowheader" scope="row">11MAR2011</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">338.87144</td>
+<td class="r data">26.512333</td>
+<td class="r data">163.37</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX12"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">8492</th>
+<th class="r rowheader" scope="row">01APR2023</th>
+<td class="r data">60.841363</td>
+<td class="r data">29.60677</td>
+<td class="r data">2.813170</td>
+<td class="r data">118.869557</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8493</th>
+<th class="r rowheader" scope="row">02APR2023</th>
+<td class="r data">62.368812</td>
+<td class="r data">32.81434</td>
+<td class="r data" nowrap>-1.946116</td>
+<td class="r data">126.683741</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8494</th>
+<th class="r rowheader" scope="row">03APR2023</th>
+<td class="r data">63.262078</td>
+<td class="r data">34.29741</td>
+<td class="r data" nowrap>-3.959619</td>
+<td class="r data">130.483775</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8495</th>
+<th class="r rowheader" scope="row">04APR2023</th>
+<td class="r data">63.784875</td>
+<td class="r data">35.11615</td>
+<td class="r data" nowrap>-5.041519</td>
+<td class="r data">132.611270</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8496</th>
+<th class="r rowheader" scope="row">05APR2023</th>
+<td class="r data">64.091273</td>
+<td class="r data">35.64456</td>
+<td class="r data" nowrap>-5.770778</td>
+<td class="r data">133.953325</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8497</th>
+<th class="r rowheader" scope="row">06APR2023</th>
+<td class="r data">64.271277</td>
+<td class="r data">36.03397</td>
+<td class="r data" nowrap>-6.354014</td>
+<td class="r data">134.896568</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8498</th>
+<th class="r rowheader" scope="row">07APR2023</th>
+<td class="r data">64.377461</td>
+<td class="r data">36.35197</td>
+<td class="r data" nowrap>-6.871098</td>
+<td class="r data">135.626021</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8499</th>
+<th class="r rowheader" scope="row">08APR2023</th>
+<td class="r data">64.440536</td>
+<td class="r data">36.63122</td>
+<td class="r data" nowrap>-7.355338</td>
+<td class="r data">136.236410</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8500</th>
+<th class="r rowheader" scope="row">09APR2023</th>
+<td class="r data">64.478436</td>
+<td class="r data">36.88851</td>
+<td class="r data" nowrap>-7.821710</td>
+<td class="r data">136.778582</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8501</th>
+<th class="r rowheader" scope="row">10APR2023</th>
+<td class="r data">64.501637</td>
+<td class="r data">37.13286</td>
+<td class="r data" nowrap>-8.277429</td>
+<td class="r data">137.280704</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8502</th>
+<th class="r rowheader" scope="row">11APR2023</th>
+<td class="r data">64.516256</td>
+<td class="r data">37.36928</td>
+<td class="r data" nowrap>-8.726186</td>
+<td class="r data">137.758698</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8503</th>
+<th class="r rowheader" scope="row">12APR2023</th>
+<td class="r data">64.525864</td>
+<td class="r data">37.60060</td>
+<td class="r data" nowrap>-9.169956</td>
+<td class="r data">138.221685</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8504</th>
+<th class="r rowheader" scope="row">13APR2023</th>
+<td class="r data">64.532547</td>
+<td class="r data">37.82844</td>
+<td class="r data" nowrap>-9.609837</td>
+<td class="r data">138.674932</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8505</th>
+<th class="r rowheader" scope="row">14APR2023</th>
+<td class="r data">64.537523</td>
+<td class="r data">38.05375</td>
+<td class="r data" nowrap>-10.046457</td>
+<td class="r data">139.121503</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8506</th>
+<th class="r rowheader" scope="row">15APR2023</th>
+<td class="r data">64.541502</td>
+<td class="r data">38.27708</td>
+<td class="r data" nowrap>-10.480189</td>
+<td class="r data">139.563193</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8507</th>
+<th class="r rowheader" scope="row">16APR2023</th>
+<td class="r data">64.544899</td>
+<td class="r data">38.49875</td>
+<td class="r data" nowrap>-10.911260</td>
+<td class="r data">140.001058</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8508</th>
+<th class="r rowheader" scope="row">17APR2023</th>
+<td class="r data">64.547957</td>
+<td class="r data">38.71896</td>
+<td class="r data" nowrap>-11.339817</td>
+<td class="r data">140.435731</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8509</th>
+<th class="r rowheader" scope="row">18APR2023</th>
+<td class="r data">64.550817</td>
+<td class="r data">38.93785</td>
+<td class="r data" nowrap>-11.765961</td>
+<td class="r data">140.867594</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8510</th>
+<th class="r rowheader" scope="row">19APR2023</th>
+<td class="r data">64.553561</td>
+<td class="r data">39.15548</td>
+<td class="r data" nowrap>-12.189765</td>
+<td class="r data">141.296887</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8511</th>
+<th class="r rowheader" scope="row">20APR2023</th>
+<td class="r data">64.556238</td>
+<td class="r data">39.37191</td>
+<td class="r data" nowrap>-12.611287</td>
+<td class="r data">141.723762</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8512</th>
+<th class="r rowheader" scope="row">21APR2023</th>
+<td class="r data">64.558875</td>
+<td class="r data">39.58718</td>
+<td class="r data" nowrap>-13.030575</td>
+<td class="r data">142.148325</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8513</th>
+<th class="r rowheader" scope="row">22APR2023</th>
+<td class="r data">64.561489</td>
+<td class="r data">39.80132</td>
+<td class="r data" nowrap>-13.447672</td>
+<td class="r data">142.570650</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8514</th>
+<th class="r rowheader" scope="row">23APR2023</th>
+<td class="r data">64.564090</td>
+<td class="r data">40.01436</td>
+<td class="r data" nowrap>-13.862616</td>
+<td class="r data">142.990796</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8515</th>
+<th class="r rowheader" scope="row">24APR2023</th>
+<td class="r data">64.566683</td>
+<td class="r data">40.22631</td>
+<td class="r data" nowrap>-14.275443</td>
+<td class="r data">143.408810</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8516</th>
+<th class="r rowheader" scope="row">25APR2023</th>
+<td class="r data">64.569272</td>
+<td class="r data">40.43720</td>
+<td class="r data" nowrap>-14.686188</td>
+<td class="r data">143.824732</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8517</th>
+<th class="r rowheader" scope="row">26APR2023</th>
+<td class="r data">64.571858</td>
+<td class="r data">40.64704</td>
+<td class="r data" nowrap>-15.094884</td>
+<td class="r data">144.238600</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8518</th>
+<th class="r rowheader" scope="row">27APR2023</th>
+<td class="r data">64.574442</td>
+<td class="r data">40.85586</td>
+<td class="r data" nowrap>-15.501563</td>
+<td class="r data">144.650447</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8519</th>
+<th class="r rowheader" scope="row">28APR2023</th>
+<td class="r data">64.577026</td>
+<td class="r data">41.06365</td>
+<td class="r data" nowrap>-15.906256</td>
+<td class="r data">145.060307</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8520</th>
+<th class="r rowheader" scope="row">29APR2023</th>
+<td class="r data">64.579609</td>
+<td class="r data">41.27045</td>
+<td class="r data" nowrap>-16.308992</td>
+<td class="r data">145.468210</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8521</th>
+<th class="r rowheader" scope="row">30APR2023</th>
+<td class="r data">64.582191</td>
+<td class="r data">41.47627</td>
+<td class="r data" nowrap>-16.709802</td>
+<td class="r data">145.874185</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8522</th>
+<th class="r rowheader" scope="row">01MAY2023</th>
+<td class="r data">64.584774</td>
+<td class="r data">41.68112</td>
+<td class="r data" nowrap>-17.108714</td>
+<td class="r data">146.278262</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8523</th>
+<th class="r rowheader" scope="row">02MAY2023</th>
+<td class="r data">64.587356</td>
+<td class="r data">41.88501</td>
+<td class="r data" nowrap>-17.505756</td>
+<td class="r data">146.680468</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8524</th>
+<th class="r rowheader" scope="row">03MAY2023</th>
+<td class="r data">64.589939</td>
+<td class="r data">42.08796</td>
+<td class="r data" nowrap>-17.900954</td>
+<td class="r data">147.080831</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8525</th>
+<th class="r rowheader" scope="row">04MAY2023</th>
+<td class="r data">64.592521</td>
+<td class="r data">42.28999</td>
+<td class="r data" nowrap>-18.294336</td>
+<td class="r data">147.479378</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8526</th>
+<th class="r rowheader" scope="row">05MAY2023</th>
+<td class="r data">64.595103</td>
+<td class="r data">42.49110</td>
+<td class="r data" nowrap>-18.685928</td>
+<td class="r data">147.876134</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8527</th>
+<th class="r rowheader" scope="row">06MAY2023</th>
+<td class="r data">64.597685</td>
+<td class="r data">42.69131</td>
+<td class="r data" nowrap>-19.075754</td>
+<td class="r data">148.271125</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8528</th>
+<th class="r rowheader" scope="row">07MAY2023</th>
+<td class="r data">64.600268</td>
+<td class="r data">42.89064</td>
+<td class="r data" nowrap>-19.463840</td>
+<td class="r data">148.664375</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8529</th>
+<th class="r rowheader" scope="row">08MAY2023</th>
+<td class="r data">64.602850</td>
+<td class="r data">43.08909</td>
+<td class="r data" nowrap>-19.850209</td>
+<td class="r data">149.055908</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8530</th>
+<th class="r rowheader" scope="row">09MAY2023</th>
+<td class="r data">64.605432</td>
+<td class="r data">43.28667</td>
+<td class="r data" nowrap>-20.234885</td>
+<td class="r data">149.445749</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8531</th>
+<th class="r rowheader" scope="row">10MAY2023</th>
+<td class="r data">64.608014</td>
+<td class="r data">43.48340</td>
+<td class="r data" nowrap>-20.617892</td>
+<td class="r data">149.833920</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8532</th>
+<th class="r rowheader" scope="row">11MAY2023</th>
+<td class="r data">64.610596</td>
+<td class="r data">43.67930</td>
+<td class="r data" nowrap>-20.999251</td>
+<td class="r data">150.220444</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8533</th>
+<th class="r rowheader" scope="row">12MAY2023</th>
+<td class="r data">64.613179</td>
+<td class="r data">43.87436</td>
+<td class="r data" nowrap>-21.378986</td>
+<td class="r data">150.605343</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8534</th>
+<th class="r rowheader" scope="row">13MAY2023</th>
+<td class="r data">64.615761</td>
+<td class="r data">44.06860</td>
+<td class="r data" nowrap>-21.757117</td>
+<td class="r data">150.988639</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8535</th>
+<th class="r rowheader" scope="row">14MAY2023</th>
+<td class="r data">64.618343</td>
+<td class="r data">44.26204</td>
+<td class="r data" nowrap>-22.133665</td>
+<td class="r data">151.370352</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8536</th>
+<th class="r rowheader" scope="row">15MAY2023</th>
+<td class="r data">64.620925</td>
+<td class="r data">44.45468</td>
+<td class="r data" nowrap>-22.508652</td>
+<td class="r data">151.750503</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8537</th>
+<th class="r rowheader" scope="row">16MAY2023</th>
+<td class="r data">64.623508</td>
+<td class="r data">44.64654</td>
+<td class="r data" nowrap>-22.882097</td>
+<td class="r data">152.129113</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8538</th>
+<th class="r rowheader" scope="row">17MAY2023</th>
+<td class="r data">64.626090</td>
+<td class="r data">44.83762</td>
+<td class="r data" nowrap>-23.254021</td>
+<td class="r data">152.506201</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8539</th>
+<th class="r rowheader" scope="row">18MAY2023</th>
+<td class="r data">64.628672</td>
+<td class="r data">45.02793</td>
+<td class="r data" nowrap>-23.624442</td>
+<td class="r data">152.881786</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8540</th>
+<th class="r rowheader" scope="row">19MAY2023</th>
+<td class="r data">64.631254</td>
+<td class="r data">45.21748</td>
+<td class="r data" nowrap>-23.993380</td>
+<td class="r data">153.255888</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8541</th>
+<th class="r rowheader" scope="row">20MAY2023</th>
+<td class="r data">64.633836</td>
+<td class="r data">45.40629</td>
+<td class="r data" nowrap>-24.360853</td>
+<td class="r data">153.628526</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8542</th>
+<th class="r rowheader" scope="row">21MAY2023</th>
+<td class="r data">64.636419</td>
+<td class="r data">45.59436</td>
+<td class="r data" nowrap>-24.726879</td>
+<td class="r data">153.999716</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8543</th>
+<th class="r rowheader" scope="row">22MAY2023</th>
+<td class="r data">64.639001</td>
+<td class="r data">45.78170</td>
+<td class="r data" nowrap>-25.091476</td>
+<td class="r data">154.369478</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8544</th>
+<th class="r rowheader" scope="row">23MAY2023</th>
+<td class="r data">64.641583</td>
+<td class="r data">45.96832</td>
+<td class="r data" nowrap>-25.454662</td>
+<td class="r data">154.737829</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8545</th>
+<th class="r rowheader" scope="row">24MAY2023</th>
+<td class="r data">64.644165</td>
+<td class="r data">46.15423</td>
+<td class="r data" nowrap>-25.816454</td>
+<td class="r data">155.104785</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8546</th>
+<th class="r rowheader" scope="row">25MAY2023</th>
+<td class="r data">64.646748</td>
+<td class="r data">46.33943</td>
+<td class="r data" nowrap>-26.176869</td>
+<td class="r data">155.470364</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8547</th>
+<th class="r rowheader" scope="row">26MAY2023</th>
+<td class="r data">64.649330</td>
+<td class="r data">46.52394</td>
+<td class="r data" nowrap>-26.535922</td>
+<td class="r data">155.834582</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8548</th>
+<th class="r rowheader" scope="row">27MAY2023</th>
+<td class="r data">64.651912</td>
+<td class="r data">46.70777</td>
+<td class="r data" nowrap>-26.893631</td>
+<td class="r data">156.197455</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8549</th>
+<th class="r rowheader" scope="row">28MAY2023</th>
+<td class="r data">64.654494</td>
+<td class="r data">46.89092</td>
+<td class="r data" nowrap>-27.250011</td>
+<td class="r data">156.558999</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8550</th>
+<th class="r rowheader" scope="row">29MAY2023</th>
+<td class="r data">64.657076</td>
+<td class="r data">47.07339</td>
+<td class="r data" nowrap>-27.605077</td>
+<td class="r data">156.919230</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8551</th>
+<th class="r rowheader" scope="row">30MAY2023</th>
+<td class="r data">64.659659</td>
+<td class="r data">47.25521</td>
+<td class="r data" nowrap>-27.958845</td>
+<td class="r data">157.278162</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX13"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output-all data/ForecastsOnlyPlot9.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX14"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output-all data/SmoothedTrendPlot9.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX15"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output-all data/SmoothedTrendRegCycPlot9.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX16"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.AMONTH</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX17"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">1113.00000</td>
+<td class="r data">9337.00000</td>
+<td class="r data">2254.50896</td>
+<td class="r data">831.08813</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX18"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">1113.00000</td>
+<td class="r data">9337.00000</td>
+<td class="r data">2254.50896</td>
+<td class="r data">831.08813</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX19"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Fixed Parameters">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Fixed Parameters in the Model</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX20"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">621193</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">85.33333</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">1035322</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX21"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-2199</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data" nowrap>18E-16</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">279</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">4</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">277</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">4406.8</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">4421.3</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">4407</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">4412.6</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">4425.3</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX22"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 13 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX23"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">13.62825</td>
+<td class="r data">10.53248</td>
+<td class="r data">1.29</td>
+<td class="r data">0.1957</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.55239</td>
+<td class="r data">0.05480</td>
+<td class="r data">10.08</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">14.61880</td>
+<td class="r data">5.87346</td>
+<td class="r data">2.49</td>
+<td class="r data">0.0128</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">387356</td>
+<td class="r data">43859.3</td>
+<td class="r data">8.83</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX24"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">450608</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">671.27375</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">16.99622</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">63.62115</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.34290</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.33568</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.19138</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.32365</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 277</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX25"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">48.90</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">0.61</td>
+<td class="r data">0.4330</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9998</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX26"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">2171.003248</td>
+<td class="r data">310.44746</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data" nowrap>-14.2873389</td>
+<td class="r data">18.222888</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX27"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">14.61880</td>
+<td class="r data">0.42980</td>
+<td class="r data">0.55239</td>
+<td class="r data">12.73762</td>
+<td class="r data">0.58672</td>
+<td class="r data">557456</td>
+<td class="r data">387356</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX28"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">223</th>
+<th class="r rowheader" scope="row">JUL2018</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">3730.83842</td>
+<td class="r data">568.1979</td>
+<td class="r data">43.11</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">135</th>
+<th class="r rowheader" scope="row">MAR2011</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">2480.82294</td>
+<td class="r data">568.15618</td>
+<td class="r data">19.07</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">235</th>
+<th class="r rowheader" scope="row">JUL2019</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">2348.63699</td>
+<td class="r data">568.21647</td>
+<td class="r data">17.08</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX29"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">280</th>
+<th class="r rowheader" scope="row">APR2023</th>
+<td class="r data">2155.9</td>
+<td class="r data">670.07</td>
+<td class="r data">842.616636</td>
+<td class="r data">3469.3</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">281</th>
+<th class="r rowheader" scope="row">MAY2023</th>
+<td class="r data">2140.4</td>
+<td class="r data">786.76</td>
+<td class="r data">598.407134</td>
+<td class="r data">3682.5</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">282</th>
+<th class="r rowheader" scope="row">JUN2023</th>
+<td class="r data">2126.4</td>
+<td class="r data">822.65</td>
+<td class="r data">513.999755</td>
+<td class="r data">3738.7</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">283</th>
+<th class="r rowheader" scope="row">JUL2023</th>
+<td class="r data">2112.7</td>
+<td class="r data">835.76</td>
+<td class="r data">474.630824</td>
+<td class="r data">3750.7</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">284</th>
+<th class="r rowheader" scope="row">AUG2023</th>
+<td class="r data">2098.9</td>
+<td class="r data">842.66</td>
+<td class="r data">447.340748</td>
+<td class="r data">3750.5</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">285</th>
+<th class="r rowheader" scope="row">SEP2023</th>
+<td class="r data">2085.0</td>
+<td class="r data">848.25</td>
+<td class="r data">422.451339</td>
+<td class="r data">3747.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX30"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output-all data/ForecastsOnlyPlot10.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX31"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output-all data/SmoothedTrendPlot10.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX32"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output-all data/SmoothedTrendRegCycPlot10.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>

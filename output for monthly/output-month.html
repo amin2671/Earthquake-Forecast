@@ -1,0 +1,6794 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=windows-1252">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.accessiblecaption
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</script>
+
+</head>
+<body onload="startup()" onunload="shutdown()" class="body">
+
+<script language="javascript" type="text/javascript">
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</script>
+
+<div class="branch">
+<a name="IDX33"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.NA</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX34"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">375.00000</td>
+<td class="r data">8296.00000</td>
+<td class="r data">919.72760</td>
+<td class="r data">739.17257</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX35"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">375.00000</td>
+<td class="r data">8296.00000</td>
+<td class="r data">919.72760</td>
+<td class="r data">739.17257</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX36"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Fixed Parameters">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Fixed Parameters in the Model</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX37"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">246968</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">85.33333</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">411614</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX38"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-2164</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data">0</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">279</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">4</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">277</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">4336.2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">4350.7</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">4336.4</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">4342</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">4354.7</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX39"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 17 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX40"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0.00000279</td>
+<td class="r data">0.0008443</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9974</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.58140</td>
+<td class="r data">0.05069</td>
+<td class="r data">11.47</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">14.40641</td>
+<td class="r data">4.68146</td>
+<td class="r data">3.08</td>
+<td class="r data">0.0021</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">309993</td>
+<td class="r data">33966.0</td>
+<td class="r data">9.13</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX41"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">343538</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">586.12124</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">23.00400</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">77.39330</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.37173</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.36482</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.22381</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.35332</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 277</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX42"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">126.53</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">19.84</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">8.51</td>
+<td class="r data">0.0142</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX43"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1398.471004</td>
+<td class="r data">124.32446</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">3.445577026</td>
+<td class="r data">0.7735386</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX44"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">14.40641</td>
+<td class="r data">0.43614</td>
+<td class="r data">0.58140</td>
+<td class="r data">406.15398</td>
+<td class="r data">29.04272</td>
+<td class="r data">468287</td>
+<td class="r data">309993</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX45"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">223</th>
+<th class="r rowheader" scope="row">JUL2018</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">3903.68262</td>
+<td class="r data">503.17919</td>
+<td class="r data">60.19</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">235</th>
+<th class="r rowheader" scope="row">JUL2019</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">2333.64476</td>
+<td class="r data">503.24754</td>
+<td class="r data">21.50</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">209</th>
+<th class="r rowheader" scope="row">MAY2017</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">2311.89612</td>
+<td class="r data">503.11112</td>
+<td class="r data">21.12</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX46"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">280</th>
+<th class="r rowheader" scope="row">APR2023</th>
+<td class="r data">1255.9</td>
+<td class="r data">583.07</td>
+<td class="r data">113.105538</td>
+<td class="r data">2398.7</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">281</th>
+<th class="r rowheader" scope="row">MAY2023</th>
+<td class="r data">1374.0</td>
+<td class="r data">674.27</td>
+<td class="r data">52.462134</td>
+<td class="r data">2695.5</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">282</th>
+<th class="r rowheader" scope="row">JUN2023</th>
+<td class="r data">1425.1</td>
+<td class="r data">693.92</td>
+<td class="r data">65.046292</td>
+<td class="r data">2785.2</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">283</th>
+<th class="r rowheader" scope="row">JUL2023</th>
+<td class="r data">1440.0</td>
+<td class="r data">696.72</td>
+<td class="r data">74.492170</td>
+<td class="r data">2805.6</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">284</th>
+<th class="r rowheader" scope="row">AUG2023</th>
+<td class="r data">1439.5</td>
+<td class="r data">696.83</td>
+<td class="r data">73.698623</td>
+<td class="r data">2805.2</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">285</th>
+<th class="r rowheader" scope="row">SEP2023</th>
+<td class="r data">1434.8</td>
+<td class="r data">696.79</td>
+<td class="r data">69.128605</td>
+<td class="r data">2800.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX47"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output for monthly/ForecastsOnlyPlot11.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX48"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendPlot11.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX49"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendRegCycPlot11.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX50"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.SA</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX51"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">58.00000</td>
+<td class="r data">919.00000</td>
+<td class="r data">191.65591</td>
+<td class="r data">106.32269</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX52"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">58.00000</td>
+<td class="r data">919.00000</td>
+<td class="r data">191.65591</td>
+<td class="r data">106.32269</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX53"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Fixed Parameters">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Fixed Parameters in the Model</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX54"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">4700.91092</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">85.33333</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">7834.85153</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX55"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-1627</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data">0</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">279</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">4</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">277</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">3261.1</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">3275.6</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">3261.2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">3266.9</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">3279.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX56"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 10 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX57"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0.18168</td>
+<td class="r data">0.18772</td>
+<td class="r data">0.97</td>
+<td class="r data">0.3332</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.49349</td>
+<td class="r data">0.06424</td>
+<td class="r data">7.68</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">26.77070</td>
+<td class="r data">47.01560</td>
+<td class="r data">0.57</td>
+<td class="r data">0.5691</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">6543.98337</td>
+<td class="r data">782.51271</td>
+<td class="r data">8.36</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX58"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">7249.83856</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">85.14598</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">22.65379</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">85.05391</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.35907</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.35202</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.19794</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.34029</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 277</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX59"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">13.04</td>
+<td class="r data">0.0003</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9692</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9995</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX60"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">143.2204779</td>
+<td class="r data">39.66036</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data" nowrap>-0.08372642</td>
+<td class="r data">2.1714085</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX61"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">26.77070</td>
+<td class="r data">0.23470</td>
+<td class="r data">0.49349</td>
+<td class="r data">1.51373</td>
+<td class="r data">1.05692</td>
+<td class="r data">8650.74637</td>
+<td class="r data">6543.98337</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX62"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">189</th>
+<th class="r rowheader" scope="row">SEP2015</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">543.64649</td>
+<td class="r data">73.471802</td>
+<td class="r data">54.75</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">123</th>
+<th class="r rowheader" scope="row">MAR2010</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">532.94813</td>
+<td class="r data">73.471419</td>
+<td class="r data">52.62</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<th class="r rowheader" scope="row">JUN2003</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">299.13645</td>
+<td class="r data">73.47836</td>
+<td class="r data">16.57</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX63"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">280</th>
+<th class="r rowheader" scope="row">APR2023</th>
+<td class="r data">142.448202</td>
+<td class="r data">84.69723</td>
+<td class="r data" nowrap>-23.555316</td>
+<td class="r data">308.451720</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">281</th>
+<th class="r rowheader" scope="row">MAY2023</th>
+<td class="r data">142.689298</td>
+<td class="r data">97.19535</td>
+<td class="r data" nowrap>-47.810081</td>
+<td class="r data">333.188678</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">282</th>
+<th class="r rowheader" scope="row">JUN2023</th>
+<td class="r data">142.787834</td>
+<td class="r data">101.35</td>
+<td class="r data" nowrap>-55.855394</td>
+<td class="r data">341.431061</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">283</th>
+<th class="r rowheader" scope="row">JUL2023</th>
+<td class="r data">142.799960</td>
+<td class="r data">103.24</td>
+<td class="r data" nowrap>-59.546553</td>
+<td class="r data">345.146473</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">284</th>
+<th class="r rowheader" scope="row">AUG2023</th>
+<td class="r data">142.763857</td>
+<td class="r data">104.43</td>
+<td class="r data" nowrap>-61.909280</td>
+<td class="r data">347.436995</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">285</th>
+<th class="r rowheader" scope="row">SEP2023</th>
+<td class="r data">142.702503</td>
+<td class="r data">105.39</td>
+<td class="r data" nowrap>-63.861282</td>
+<td class="r data">349.266288</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX64"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output for monthly/ForecastsOnlyPlot12.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX65"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendPlot12.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX66"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendRegCycPlot12.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX67"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.EUA</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX68"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">6.00000</td>
+<td class="r data">888.00000</td>
+<td class="r data">201.38710</td>
+<td class="r data">204.65381</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX69"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">6.00000</td>
+<td class="r data">888.00000</td>
+<td class="r data">201.38710</td>
+<td class="r data">204.65381</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX70"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">7275.21341</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">7275.21341</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">85.33333</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">12125</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX71"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-1629</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data">0</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">279</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">5</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">277</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">3268.7</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">3286.8</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">3268.9</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">3275.9</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">3291.8</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX72"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 20 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX73"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">1220.17129</td>
+<td class="r data">449.09191</td>
+<td class="r data">2.72</td>
+<td class="r data">0.0066</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0.00000557</td>
+<td class="r data">0.0017122</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9974</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.30708</td>
+<td class="r data">0.15722</td>
+<td class="r data">1.95</td>
+<td class="r data">0.0508</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">5.40347</td>
+<td class="r data">2.86229</td>
+<td class="r data">1.89</td>
+<td class="r data">0.0591</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">4129.02936</td>
+<td class="r data">859.97811</td>
+<td class="r data">4.80</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX74"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">7585.91055</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">87.09713</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">37.03008</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">88.36386</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.81944</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.81678</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.17825</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.81280</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 277</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX75"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">14.30</td>
+<td class="r data">0.0002</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9505</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">4.73</td>
+<td class="r data">0.0941</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX76"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">166.0682638</td>
+<td class="r data">43.90857</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data" nowrap>-0.13072445</td>
+<td class="r data">2.1070841</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX77"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">5.40347</td>
+<td class="r data">1.16281</td>
+<td class="r data">0.30708</td>
+<td class="r data">111.88819</td>
+<td class="r data">67.37482</td>
+<td class="r data">4558.92307</td>
+<td class="r data">4129.02936</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX78"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">278</th>
+<th class="r rowheader" scope="row">FEB2023</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">436.47347</td>
+<td class="r data">76.339641</td>
+<td class="r data">32.69</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<th class="r rowheader" scope="row">SEP2002</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">354.60525</td>
+<td class="r data">74.907414</td>
+<td class="r data">22.41</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">102</th>
+<th class="r rowheader" scope="row">JUN2008</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">349.03830</td>
+<td class="r data">74.907414</td>
+<td class="r data">21.71</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX79"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">280</th>
+<th class="r rowheader" scope="row">APR2023</th>
+<td class="r data">132.613484</td>
+<td class="r data">85.70029</td>
+<td class="r data" nowrap>-35.356002</td>
+<td class="r data">300.582970</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">281</th>
+<th class="r rowheader" scope="row">MAY2023</th>
+<td class="r data">164.105184</td>
+<td class="r data">96.20835</td>
+<td class="r data" nowrap>-24.459709</td>
+<td class="r data">352.670076</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">282</th>
+<th class="r rowheader" scope="row">JUN2023</th>
+<td class="r data">168.403809</td>
+<td class="r data">101.62</td>
+<td class="r data" nowrap>-30.773427</td>
+<td class="r data">367.581045</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">283</th>
+<th class="r rowheader" scope="row">JUL2023</th>
+<td class="r data">166.370505</td>
+<td class="r data">107.20</td>
+<td class="r data" nowrap>-43.730689</td>
+<td class="r data">376.471699</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">284</th>
+<th class="r rowheader" scope="row">AUG2023</th>
+<td class="r data">165.358492</td>
+<td class="r data">112.95</td>
+<td class="r data" nowrap>-56.023384</td>
+<td class="r data">386.740368</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">285</th>
+<th class="r rowheader" scope="row">SEP2023</th>
+<td class="r data">165.192427</td>
+<td class="r data">118.53</td>
+<td class="r data" nowrap>-67.121102</td>
+<td class="r data">397.505955</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX80"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output for monthly/ForecastsOnlyPlot13.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX81"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendPlot13.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX82"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendRegCycPlot13.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX83"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.IND</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX84"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">18.00000</td>
+<td class="r data">821.00000</td>
+<td class="r data">72.85663</td>
+<td class="r data">65.77989</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX85"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">18.00000</td>
+<td class="r data">821.00000</td>
+<td class="r data">72.85663</td>
+<td class="r data">65.77989</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX86"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Fixed Parameters">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Fixed Parameters in the Model</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX87"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">4272.18651</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">1602.06994</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">85.33333</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">2670.11657</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX88"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-1534</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data">0</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">279</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">5</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">277</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">3078.4</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">3096.5</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">3078.6</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">3085.6</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">3101.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX89"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 17 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX90"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">2631.13646</td>
+<td class="r data">295.15766</td>
+<td class="r data">8.91</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data" nowrap>5.671273E-8</td>
+<td class="r data">0.00001906</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9976</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90058</td>
+<td class="r data">0.04455</td>
+<td class="r data">20.21</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">47.54884</td>
+<td class="r data">20.11600</td>
+<td class="r data">2.36</td>
+<td class="r data">0.0181</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">328.23547</td>
+<td class="r data">97.79325</td>
+<td class="r data">3.36</td>
+<td class="r data">0.0008</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX91"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">3725.40179</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">61.03607</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">37.33893</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">88.28451</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.14141</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.12879</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.35126</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.10985</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 277</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX92"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<td class="r data">1</td>
+<td class="r data">0.02</td>
+<td class="r data">0.8881</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">19.66</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">0.30</td>
+<td class="r data">0.5844</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">0.02</td>
+<td class="r data">0.9878</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX93"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">65.89155911</td>
+<td class="r data">14.861952</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data" nowrap>-0.05062821</td>
+<td class="r data">0.0925585</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX94"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">47.54884</td>
+<td class="r data">0.13214</td>
+<td class="r data">0.90058</td>
+<td class="r data">4.46097</td>
+<td class="r data">6.77017</td>
+<td class="r data">1737.16174</td>
+<td class="r data">328.23547</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX95"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">101</th>
+<th class="r rowheader" scope="row">MAY2008</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">653.05594</td>
+<td class="r data">56.924416</td>
+<td class="r data">131.61</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">70</th>
+<th class="r rowheader" scope="row">OCT2005</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">506.92035</td>
+<td class="r data">56.935582</td>
+<td class="r data">79.27</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">106</th>
+<th class="r rowheader" scope="row">OCT2008</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">196.49354</td>
+<td class="r data">56.92321</td>
+<td class="r data">11.92</td>
+<td class="r data">1</td>
+<td class="r data">0.0006</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX96"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">280</th>
+<th class="r rowheader" scope="row">APR2023</th>
+<td class="r data">69.842562</td>
+<td class="r data">60.06001</td>
+<td class="r data" nowrap>-47.872892</td>
+<td class="r data">187.558016</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">281</th>
+<th class="r rowheader" scope="row">MAY2023</th>
+<td class="r data">69.404984</td>
+<td class="r data">61.95071</td>
+<td class="r data" nowrap>-52.016171</td>
+<td class="r data">190.826140</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">282</th>
+<th class="r rowheader" scope="row">JUN2023</th>
+<td class="r data">68.948034</td>
+<td class="r data">63.50974</td>
+<td class="r data" nowrap>-55.528766</td>
+<td class="r data">193.424834</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">283</th>
+<th class="r rowheader" scope="row">JUL2023</th>
+<td class="r data">68.485768</td>
+<td class="r data">64.76666</td>
+<td class="r data" nowrap>-58.454545</td>
+<td class="r data">195.426082</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">284</th>
+<th class="r rowheader" scope="row">AUG2023</th>
+<td class="r data">68.029724</td>
+<td class="r data">65.75770</td>
+<td class="r data" nowrap>-60.853009</td>
+<td class="r data">196.912456</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">285</th>
+<th class="r rowheader" scope="row">SEP2023</th>
+<td class="r data">67.589098</td>
+<td class="r data">66.52172</td>
+<td class="r data" nowrap>-62.791072</td>
+<td class="r data">197.969267</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX97"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output for monthly/ForecastsOnlyPlot14.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX98"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendPlot14.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX99"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendRegCycPlot14.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX100"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.SEA</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX101"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">100.00000</td>
+<td class="r data">1522.00000</td>
+<td class="r data">263.98925</td>
+<td class="r data">140.24563</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX102"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">100.00000</td>
+<td class="r data">1522.00000</td>
+<td class="r data">263.98925</td>
+<td class="r data">140.24563</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX103"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Fixed Parameters">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Fixed Parameters in the Model</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX104"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">29963</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">11236</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">85.33333</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">18727</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX105"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-1703</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data">0</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">279</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">5</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">277</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">3416.9</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">3435</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">3417.1</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">3424.2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">3440</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX106"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 19 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX107"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">5697.95735</td>
+<td class="r data">1083.1</td>
+<td class="r data">5.26</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data" nowrap>3.463205E-7</td>
+<td class="r data">0.0001444</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9981</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.84358</td>
+<td class="r data">0.05149</td>
+<td class="r data">16.38</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">9974.88202</td>
+<td class="r data">2226247.3</td>
+<td class="r data">0.00</td>
+<td class="r data">0.9964</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">4307.93820</td>
+<td class="r data">1039.0</td>
+<td class="r data">4.15</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX108"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">12841</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">113.31925</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">23.42700</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">63.84614</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.34377</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.33412</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.18995</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.31964</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 277</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX109"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<td class="r data">1</td>
+<td class="r data">0.10</td>
+<td class="r data">0.7560</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">33.94</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">0.30</td>
+<td class="r data">0.5841</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">0.10</td>
+<td class="r data">0.9499</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX110"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">284.5410702</td>
+<td class="r data">48.844663</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">0.165047295</td>
+<td class="r data">0.3014993</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX111"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">9974.88202</td>
+<td class="r data">0.00062990</td>
+<td class="r data">0.84358</td>
+<td class="r data">22.33681</td>
+<td class="r data">7.85012</td>
+<td class="r data">14939</td>
+<td class="r data">4307.93820</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX112"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">61</th>
+<th class="r rowheader" scope="row">JAN2005</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">877.47307</td>
+<td class="r data">99.120237</td>
+<td class="r data">78.37</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">64</th>
+<th class="r rowheader" scope="row">APR2005</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">605.37449</td>
+<td class="r data">99.119615</td>
+<td class="r data">37.30</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">62</th>
+<th class="r rowheader" scope="row">FEB2005</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data" nowrap>-531.94568</td>
+<td class="r data">99.120027</td>
+<td class="r data">28.80</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX113"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">280</th>
+<th class="r rowheader" scope="row">APR2023</th>
+<td class="r data">265.863157</td>
+<td class="r data">111.04</td>
+<td class="r data">48.224418</td>
+<td class="r data">483.501897</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">281</th>
+<th class="r rowheader" scope="row">MAY2023</th>
+<td class="r data">268.975556</td>
+<td class="r data">122.32</td>
+<td class="r data">29.224176</td>
+<td class="r data">508.726936</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">282</th>
+<th class="r rowheader" scope="row">JUN2023</th>
+<td class="r data">271.626945</td>
+<td class="r data">130.07</td>
+<td class="r data">16.696178</td>
+<td class="r data">526.557713</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">283</th>
+<th class="r rowheader" scope="row">JUL2023</th>
+<td class="r data">273.889433</td>
+<td class="r data">135.57</td>
+<td class="r data">8.179001</td>
+<td class="r data">539.599865</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">284</th>
+<th class="r rowheader" scope="row">AUG2023</th>
+<td class="r data">275.823849</td>
+<td class="r data">139.57</td>
+<td class="r data">2.275957</td>
+<td class="r data">549.371741</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">285</th>
+<th class="r rowheader" scope="row">SEP2023</th>
+<td class="r data">277.481508</td>
+<td class="r data">142.53</td>
+<td class="r data" nowrap>-1.871165</td>
+<td class="r data">556.834180</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX114"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output for monthly/ForecastsOnlyPlot15.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX115"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendPlot15.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX116"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendRegCycPlot15.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX117"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.EAP</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX118"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">67.00000</td>
+<td class="r data">3001.00000</td>
+<td class="r data">217.87455</td>
+<td class="r data">203.96341</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX119"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">67.00000</td>
+<td class="r data">3001.00000</td>
+<td class="r data">217.87455</td>
+<td class="r data">203.96341</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX120"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Fixed Parameters">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Fixed Parameters in the Model</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX121"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">41522</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">15571</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">85.33333</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">25951</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX122"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-1863</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data">0</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">279</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">5</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">277</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">3735</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">3753.1</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">3735.2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">3742.3</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">3758.1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX123"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 9 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX124"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">29684</td>
+<td class="r data">3805.1</td>
+<td class="r data">7.80</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0.00938</td>
+<td class="r data">0.02156</td>
+<td class="r data">0.44</td>
+<td class="r data">0.6634</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.86859</td>
+<td class="r data">0.08905</td>
+<td class="r data">9.75</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">33.01500</td>
+<td class="r data">11.72358</td>
+<td class="r data">2.82</td>
+<td class="r data">0.0049</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">2924.36713</td>
+<td class="r data">1113.1</td>
+<td class="r data">2.63</td>
+<td class="r data">0.0086</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX125"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">39530</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">198.82206</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">35.28715</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">90.99158</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.05154</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.03759</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.36802</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.01667</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 277</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX126"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Irregular</th>
+<td class="r data">1</td>
+<td class="r data">0.02</td>
+<td class="r data">0.8902</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">17.62</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">0.12</td>
+<td class="r data">0.7324</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">0.09</td>
+<td class="r data">0.9539</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX127"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">200.2262832</td>
+<td class="r data">47.69845</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data" nowrap>-0.29474421</td>
+<td class="r data">0.8619804</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX128"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">33.01500</td>
+<td class="r data">0.19031</td>
+<td class="r data">0.86859</td>
+<td class="r data">28.83045</td>
+<td class="r data">14.39893</td>
+<td class="r data">11910</td>
+<td class="r data">2924.36713</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX129"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">135</th>
+<th class="r rowheader" scope="row">MAR2011</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">2638.89548</td>
+<td class="r data">189.07509</td>
+<td class="r data">194.79</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">78</th>
+<th class="r rowheader" scope="row">JUN2006</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">846.37846</td>
+<td class="r data">189.0826</td>
+<td class="r data">20.04</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">83</th>
+<th class="r rowheader" scope="row">NOV2006</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">639.45465</td>
+<td class="r data">189.0786</td>
+<td class="r data">11.44</td>
+<td class="r data">1</td>
+<td class="r data">0.0007</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX130"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">280</th>
+<th class="r rowheader" scope="row">APR2023</th>
+<td class="r data">178.963852</td>
+<td class="r data">196.85</td>
+<td class="r data" nowrap>-206.857162</td>
+<td class="r data">564.784866</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">281</th>
+<th class="r rowheader" scope="row">MAY2023</th>
+<td class="r data">179.503560</td>
+<td class="r data">201.28</td>
+<td class="r data" nowrap>-215.004961</td>
+<td class="r data">574.012082</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">282</th>
+<th class="r rowheader" scope="row">JUN2023</th>
+<td class="r data">180.817497</td>
+<td class="r data">204.71</td>
+<td class="r data" nowrap>-220.412319</td>
+<td class="r data">582.047314</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">283</th>
+<th class="r rowheader" scope="row">JUL2023</th>
+<td class="r data">182.637323</td>
+<td class="r data">207.25</td>
+<td class="r data" nowrap>-223.574946</td>
+<td class="r data">588.849592</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">284</th>
+<th class="r rowheader" scope="row">AUG2023</th>
+<td class="r data">184.735984</td>
+<td class="r data">209.07</td>
+<td class="r data" nowrap>-225.026699</td>
+<td class="r data">594.498666</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">285</th>
+<th class="r rowheader" scope="row">SEP2023</th>
+<td class="r data">186.928617</td>
+<td class="r data">210.31</td>
+<td class="r data" nowrap>-225.273016</td>
+<td class="r data">599.130251</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX131"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output for monthly/ForecastsOnlyPlot16.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX132"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendPlot16.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX133"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendRegCycPlot16.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX134"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">The SAS System</td>
+</tr>
+</table><br>
+<div class="c proctitle">The UCM Procedure</div>
+<p>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Input Data Set">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Input Data Set</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Name</th>
+<td class="r data">WORK.PA</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Time ID Variable</th>
+<td class="r data">time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX135"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Estimation Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Estimation Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">122.00000</td>
+<td class="r data">1200.00000</td>
+<td class="r data">280.94265</td>
+<td class="r data">132.45101</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX136"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecast Span">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="10" scope="colgroup">Forecast Span Summary</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Variable</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">First Obs</th>
+<th class="r b header" scope="col">Last Obs</th>
+<th class="r b header" scope="col">NObs</th>
+<th class="r b header" scope="col">NMiss</th>
+<th class="r b header" scope="col">Min</th>
+<th class="r b header" scope="col">Max</th>
+<th class="r b header" scope="col">Mean</th>
+<th class="r b header" scope="col">Standard<br/> Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">total</th>
+<th class="l rowheader" scope="row">Dependent</th>
+<td class="r data">JAN2000</td>
+<td class="r data">MAR2023</td>
+<td class="r data">279</td>
+<td class="r data">0</td>
+<td class="r data">122.00000</td>
+<td class="r data">1200.00000</td>
+<td class="r data">280.94265</td>
+<td class="r data">132.45101</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX137"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Fixed Parameters">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Fixed Parameters in the Model</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX138"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Initial Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Preliminary  Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.90000</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">85.33333</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">20587</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX139"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Likelihood">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Likelihood Based Fit Statistics</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Statistic</th>
+<th class="r b header" scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Log Likelihood</th>
+<td class="r data" nowrap>-1727</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Diffuse Part of Log Likelihood</th>
+<td class="r data" nowrap>-2E-15</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Non-Missing Observations Used</th>
+<td class="r data">279</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Estimated Parameters</th>
+<td class="r data">3</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Initialized Diffuse State Elements</th>
+<td class="r data">2</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Normalized Residual Sum of Squares</th>
+<td class="r data">277</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AIC (smaller is better)</th>
+<td class="r data">3459.7</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">BIC (smaller is better)</th>
+<td class="r data">3470.6</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">AICC (smaller is better)</th>
+<td class="r data">3459.8</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">HQIC (smaller is better)</th>
+<td class="r data">3464.1</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">CAIC (smaller is better)</th>
+<td class="r data">3473.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX140"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Convergence Status">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td class="l data">Likelihood Optimization Algorithm Converged in 12 Iterations.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX141"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Parameter Estimates">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Final Estimates of the Free Parameters</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="l b header" scope="col">Parameter</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Approx<br/>Std Error</th>
+<th class="r b header" scope="col">t&nbsp;Value</th>
+<th class="r b header" scope="col">Approx<br/>Pr &gt; |t|</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Damping Factor</th>
+<td class="r data">0.34737</td>
+<td class="r data">0.05683</td>
+<td class="r data">6.11</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Period</th>
+<td class="r data">3006.85045</td>
+<td class="r data">452842.0</td>
+<td class="r data">0.01</td>
+<td class="r data">0.9947</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Error Variance</th>
+<td class="r data">14238</td>
+<td class="r data">1375.6</td>
+<td class="r data">10.35</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX142"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Goodness of Fit">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="2" scope="colgroup">Fit Statistics Based on Residuals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Mean Squared Error</th>
+<td class="r data">15232</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Root Mean Squared Error</th>
+<td class="r data">123.41954</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Mean Absolute Percentage Error</th>
+<td class="r data">27.45914</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Maximum Percent Error</th>
+<td class="r data">79.98069</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">R-Square</th>
+<td class="r data">0.12945</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Adjusted R-Square</th>
+<td class="r data">0.12310</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Random Walk R-Square</th>
+<td class="r data">0.28340</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Amemiya&#39;s Adjusted R-Square</th>
+<td class="r data">0.11039</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th class="c b footer" colspan="2">Number of non-missing residuals used for computing the fit statistics = 277</th>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX143"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Component Significance">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="4" scope="colgroup">Significance Analysis of Components (Based<br/>on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Component</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">1</td>
+<td class="r data">256.53</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">1</td>
+<td class="r data">12.79</td>
+<td class="r data">0.0003</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<td class="r data">2</td>
+<td class="r data">0.54</td>
+<td class="r data">0.7616</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX144"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: TrendInformation">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="3" scope="colgroup">Trend Information (Based on the Final State)</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Level</th>
+<td class="r data">348.0351794</td>
+<td class="r data">21.729649</td>
+</tr>
+<tr>
+<th class="l rowheader" scope="row">Slope</th>
+<td class="r data">0.483321071</td>
+<td class="r data">0.135133</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX145"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Cycles">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="9" scope="colgroup">Summary of Cycles</th>
+</tr>
+<tr>
+<th class="l b header" scope="col">Name</th>
+<th class="l b header" scope="col">Type</th>
+<th class="r b header" scope="col">Period</th>
+<th class="r b header" scope="col">Frequency</th>
+<th class="r b header" scope="col">Damping Factor</th>
+<th class="r b header" scope="col">Final Amplitude</th>
+<th class="r b header" scope="col">Percent Relative<br/>to Level</th>
+<th class="r b header" scope="col">Cycle Variance</th>
+<th class="r b header" scope="col">Error Variance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="l rowheader" scope="row">Cycle</th>
+<th class="l rowheader" scope="row">Stationary</th>
+<td class="r data">3006.85045</td>
+<td class="r data">0.00209</td>
+<td class="r data">0.34737</td>
+<td class="r data">16.03560</td>
+<td class="r data">4.60747</td>
+<td class="r data">16192</td>
+<td class="r data">14238</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX146"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Outlier Summary">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="8" scope="colgroup">Outlier Summary</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="l b header" scope="col">Break Type</th>
+<th class="r b header" scope="col">Estimate</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="r b header" scope="col">Chi-Square</th>
+<th class="r b header" scope="col">DF</th>
+<th class="r b header" scope="col">Pr&nbsp;&gt;&nbsp;ChiSq</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">255</th>
+<th class="r rowheader" scope="row">MAR2021</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">739.47320</td>
+<td class="r data">112.94876</td>
+<td class="r data">42.86</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">158</th>
+<th class="r rowheader" scope="row">FEB2013</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">618.48250</td>
+<td class="r data">112.79717</td>
+<td class="r data">30.06</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<th class="r rowheader" scope="row">NOV2000</th>
+<th class="l rowheader" scope="row">Additive Outlier</th>
+<td class="r data">617.55095</td>
+<td class="r data">112.989</td>
+<td class="r data">29.87</td>
+<td class="r data">1</td>
+<td class="r data">&lt;.0001</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX147"></a>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure UCM: Forecasts">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="c b header" colspan="6" scope="colgroup">Forecasts for Variable total</th>
+</tr>
+<tr>
+<th class="r b header" scope="col">Obs</th>
+<th class="r b header" scope="col">time</th>
+<th class="r b header" scope="col">Forecast</th>
+<th class="r b header" scope="col">Standard<br/>Error</th>
+<th class="c b header" colspan="2" scope="colgroup">95% Confidence Limits</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">280</th>
+<th class="r rowheader" scope="row">APR2023</th>
+<td class="r data">342.948530</td>
+<td class="r data">120.18</td>
+<td class="r data">107.405607</td>
+<td class="r data">578.491454</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">281</th>
+<th class="r rowheader" scope="row">MAY2023</th>
+<td class="r data">347.067049</td>
+<td class="r data">127.79</td>
+<td class="r data">96.603793</td>
+<td class="r data">597.530304</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">282</th>
+<th class="r rowheader" scope="row">JUN2023</th>
+<td class="r data">348.813087</td>
+<td class="r data">128.89</td>
+<td class="r data">96.201285</td>
+<td class="r data">601.424889</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">283</th>
+<th class="r rowheader" scope="row">JUL2023</th>
+<td class="r data">349.735022</td>
+<td class="r data">129.10</td>
+<td class="r data">96.700348</td>
+<td class="r data">602.769696</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">284</th>
+<th class="r rowheader" scope="row">AUG2023</th>
+<td class="r data">350.370698</td>
+<td class="r data">129.17</td>
+<td class="r data">97.204653</td>
+<td class="r data">603.536743</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">285</th>
+<th class="r rowheader" scope="row">SEP2023</th>
+<td class="r data">350.906940</td>
+<td class="r data">129.20</td>
+<td class="r data">97.673968</td>
+<td class="r data">604.139913</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+<a name="IDX148"></a>
+<div>
+<div  class="c">
+<img alt="Forecast Only Plot" src="D:/MSDA/DA6213/project/output for monthly/ForecastsOnlyPlot17.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX149"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendPlot17.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+<a name="IDX150"></a>
+<div>
+<div  class="c">
+<img alt="Smoothed Trend plus Regression plus Cycles" src="D:/MSDA/DA6213/project/output for monthly/SmoothedTrendRegCycPlot17.png" style=" height: 480px; width: 640px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
